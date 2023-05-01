@@ -87,7 +87,7 @@ ul.nav__list {
         left: 0;
         width: 100%;
         background-color: var(--text_inverse);
-        padding: 2rem 4rem;
+        padding: 2rem 18px;
         box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.15);
         border-radius: 1.5rem 1.5rem;
         transition: 0.5s;
@@ -143,9 +143,9 @@ ul.nav__list {
 
 @media screen and (max-width : 390px) {
 
-    .nav__menu {
+    /* .nav__menu {
         padding: 2rem 0.25rem 4rem;
-    }
+    } */
 
     .nav__list {
         column-gap: 0;
