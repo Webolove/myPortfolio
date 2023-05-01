@@ -1,0 +1,44 @@
+:root {
+    --body_bg: #101214;
+    --surface_bg: #151c19;
+    --text_primary: #DEE4EA;
+    --text_secondary: #738496;
+    --text_inverse: #303030;
+    --special: #ed27e0;
+    --profile_bg: #6fa8fd;
+}
+
+body{
+    color: white;
+}
+
+.SERVICE {
+    color: #161A1D;
+    background-color: white;
+}
+
+.service_type .active{
+    box-shadow: 6px 5px 12px #3848ba;
+}
+
+.alignPlatform {
+    box-shadow: 10px 10px 10px -1px rgba(0, 0, 0, 0.26),
+            -10px -10px 10px -1px rgba(0, 0, 0, 0.56);
+}
+
+.tech_content {
+    box-shadow: inset 13px 13px 13px -1px rgba(0, 0, 0, 0.16),
+        inset -13px -13px 13px -1px rgba(0, 0, 0, 0.46);
+}
+
+
+.future_item {
+    box-shadow: 10px 10px 10px -1px rgba(0, 0, 0, 0.16),
+        -10px -10px 10px -1px rgba(0, 0, 0, 0.46);
+}
+
+.contact_wrapper {
+    box-shadow: 10px 10px 10px -1px rgba(0, 0, 0, 0.16),
+        -10px -10px 10px -1px rgba(0, 0, 0, 0.46);
+    background-image: linear-gradient(var(--surface_bg), #2f3834);
+}

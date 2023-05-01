@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mudit | Contact</title>
+
+    <link rel="icon" href="Gallery/logooo.png">
+    <link rel="stylesheet" href="Css/commonStyles.css">
+    <link rel="stylesheet" href="Css/nav_section.css">
+    <link rel="stylesheet" href="Css/contact.css">
+    <link rel="stylesheet" href="Css/footer.css">
+
+    <link rel="stylesheet" href="Css/light.css" id="DayTheme">
+    <link rel="stylesheet" href="Css/dark.css" id="NightTheme" disabled>
+
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header class="header" id="header">
+        <div class="rmvBG" id="rmvBg"></div>
+        <nav class="nav container">
+            <a href="#Contact" class="nav__logo">Mudit</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item">
+                        <a href="./" class="nav__link Underline">
+                            <i class="nav__icon uil uil-user"></i>About
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="./project" class="nav__link Underline">
+                            <i class="nav__icon uil uil-briefcase-alt"></i>Projects
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="./" class="nav__link Underline">
+                            <i class="nav__icon uil uil-game-structure"></i>Skills
+                        </a>
+                    </li>
+                    <!-- <li class="nav__item">
+                        <a href="./" class="nav__link">
+                            <i class="nav__icon uil uil-atom"></i>Tech-profile
+                        </a>
+                    </li> -->
+                    <!-- <li class="nav__item">
+                        <a href="#resume" class="nav__link">
+                            <i class="nav__icon uil uil-file-alt"></i>Resume
+                        </a>
+                    </li> -->
+                    <li class="nav__item">
+                        <a href="./achievement" class="nav__link Underline">
+                            <i class="nav__icon uil uil-game-structure"></i>Achievements</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#Contact" class="nav__link Underline active_nav">
+                            <i class="nav__icon uil uil-message"></i>Contact-me
+                        </a>
+                    </li>
+                </ul>
+                <i class="nav__icon uil uil-times-square nav__close" id="nav-close"></i>
+            </div>
+
+            <audio id="dayAudio">
+                <source src="sound/day.mp3" type="audio/mp3">
+            </audio>
+
+            <div class="specialBox">
+                <i class="uil uil-moon" id="day_night"></i>
+                <div class="Hamburger">
+                    <div class="nav__Open" id="nav-Open" style="font-size: 25px;">
+                        <i class="uil uil-apps"></i>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- End of header Section -->
+
+    <!-- Contact Me -->
+    <section class="Container contact" id="Contact" data-aos="zoom-in-up">
+        <div class="contact_info">
+            <h1 class="contact_title">Get in touch !!</h1>
+            <p class="contact_desc">Contact me for increasing your online presence.</p>
+        </div>
+        <div class="contact_details">
+            <div class="contact_type">
+                <i class="uil uil-estate"></i>
+                <span>Bihar, India</span>
+            </div>
+            <div class="contact_type">
+                <i class="uil uil-calling"></i>
+                <span>+91-8920-432242</span>
+            </div>
+            <div class="contact_type">
+                <i class="uil uil-envelope"></i>
+                <span>muditanand2003
+                    <br>@gmail.com</span>
+            </div>
+        </div>
+        <div class="contact_wrapper">
+            <div class="contact_upbox ThankYou_upbox">
+                <div style="position: relative; z-index: 10;">
+                    <div class="ThankYou">
+                        Thank You
+                    </div>
+                    <p>Your contact means a lot to me. I appreciate you taking the time to contact me.
+                    </p>
+                </div>
+            </div>
+            <div class="contact_downbox">
+                <div class="blob_Box">
+                    <div class="blob1 blob"></div>
+                    <div class="blob2 blob"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of contact me -->
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <p class="footer_title">Mudit Anand.</p>
+        <p class="footer_desc">Inspired by the world, driven by creativity.</p>
+        <p class="footer_info">@copyright 2023. All Rights Reserved.</p>
+    </footer>
+    <!-- End of Footer Section -->
+
+    <script src="Js/hamburger.js"></script>
+    <script src="Js/dayNight.js"></script>
+    <script src="Js/contact.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="Js/Aos_init.js"></script>
+    <!-- <script src="Js/onScroll.js"></script> -->
+</body>
+
+</html>

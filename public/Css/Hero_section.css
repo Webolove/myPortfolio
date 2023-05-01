@@ -1,0 +1,155 @@
+/* big media syling */
+.hero_items,
+.hero_item_left,
+.hero_socials,
+.hero_Info {
+    display: flex;
+}
+
+
+.hero_items {
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.hero_item_left {
+    flex-direction: row;
+    gap: 41px;
+    width: 60%;
+    overflow: hidden;
+}
+
+.hero_Info,
+.hero_socials {
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.hero_socials {
+    width: 7%;
+    justify-content: center;
+
+}
+
+.social_icons {
+    font-size: 32px;
+    color: var(--text_primary);
+}
+
+.hero_item_right{
+    align-items: center;
+}
+
+@media screen and (max-width: 800px) {
+    #hero {
+        max-width: 85%;
+        padding: initial;
+        margin-top: 25px;
+    }
+
+    .hero_heading
+    {
+        font-size: 19px;
+    }
+
+    .hero_items {
+        flex-direction: column-reverse;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-bottom: 2rem;
+    }
+
+    .hero_Info {
+        overflow: hidden;
+    }
+
+    .hero_item_left {
+        flex-direction: column;
+        width: 100%;
+        gap: 0px;
+    }
+
+    .hero_socials {
+        flex-direction: row;
+        width: 70%;
+        margin: 0 auto;
+        gap: 18px;
+        font-size: 22px;
+        justify-content: space-evenly;
+    }
+
+    .hero_Info{
+        font-size: 18px;
+    }
+}
+
+/* Hero Profile */
+.hero_blob{
+    width: 250px;
+    fill: var(--profile_bg); /* bisque */ 
+}
+
+.hero_blob-img{
+    width: 255px;
+}
+/* End of hero Profile */
+
+#resume{
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    height: 50px;
+    padding: 17px 21px;
+    margin-top: 12px;
+    border: 2px solid rgba(132, 27, 237, 0.888);
+    border-radius: 12px;
+    transition: all 0.5s;
+}
+
+
+.resume_icon{
+    position: relative;
+    top: 0px;
+    color: rgba(132, 27, 237, 0.888);
+    font-size: 22px;
+    margin-left: 7px;
+}
+
+.resume{
+    color: rgba(132, 27, 237, 0.888);
+    font-size: 23px;
+    letter-spacing: .1rem;
+}
+
+#resume:hover{
+    background-color: rgba(132, 27, 237, 0.888);
+}
+#resume:hover .resume_icon{
+    animation: Moving .5s 0s 1 forwards;
+}
+
+@keyframes Moving {
+    100%{
+        top: 35px;
+    }
+}
+
+#resume:hover .resume,
+#resume:hover .resume_icon{
+    color: white;
+}
+
+@media screen and (max-width: 800px)
+{
+    .resume{
+        letter-spacing: 0.05px;
+    }
+}
+
+@media screen and (max-width: 350px)
+{
+    #resume{
+        height: fit-content;
+    }
+}

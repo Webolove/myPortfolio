@@ -1,0 +1,23 @@
+:root {
+    --body_bg: #f7f8f9;
+    --surface_bg: #ffffff;
+    --text_primary: #091e42;
+    --text_secondary: #626f86;
+    --text_inverse: #f1f2f4;
+    --special: #ed27e0;
+    --border_color: #f1f2f3;
+    --profile_bg: #76abfa;
+}
+
+#scrollUp{
+    background-image: radial-gradient(#ff0a45, #ffaf98);
+}
+
+.project_container {
+    background-image: linear-gradient(to bottom right, #dfe9f3, #ffffff);
+    box-shadow: 10px 15px 10px -1px rgba(0, 0, 0, 0.16);
+}
+
+.contact_wrapper{
+    background-image: linear-gradient(to bottom right, #dfe9f3, #ffffff);
+}

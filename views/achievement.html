@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mudit | Projects</title>
+
+    <link rel="icon" href="Gallery/logooo.png">
+    <link rel="stylesheet" href="Css/commonStyles.css">
+    <link rel="stylesheet" href="Css/nav_section.css">
+    <link rel="stylesheet" href="Css/achievement.css">
+    <link rel="stylesheet" href="Css/footer.css">
+
+    <link rel="stylesheet" href="Css/light.css" id="DayTheme">
+    <link rel="stylesheet" href="Css/dark.css" id="NightTheme" disabled>
+
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header class="header" id="header">
+        <div class="rmvBG" id="rmvBg"></div>
+        <nav class="nav container">
+            <a href="#Contact" class="nav__logo">Mudit</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item">
+                        <a href="./" class="nav__link Underline">
+                            <i class="nav__icon uil uil-user"></i>About
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="./project" class="nav__link Underline">
+                            <i class="nav__icon uil uil-briefcase-alt"></i>Projects
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="./" class="nav__link Underline">
+                            <i class="nav__icon uil uil-game-structure"></i>Skills
+                        </a>
+                    </li>
+                    <!-- <li class="nav__item">
+                        <a href="./" class="nav__link">
+                            <i class="nav__icon uil uil-atom"></i>Tech-profile
+                        </a>
+                    </li> -->
+                    <li class="nav__item">
+                        <a href="#Achievements" class="nav__link Underline active_nav">
+                            <i class="nav__icon uil uil-game-structure"></i>Achievements</a>
+                    </li>
+                    <!-- <li class="nav__item">
+                        <a href="#resume" class="nav__link">
+                            <i class="nav__icon uil uil-file-alt"></i>Resume
+                        </a>
+                    </li> -->
+                    <li class="nav__item">
+                        <a href="./contact" class="nav__link Underline">
+                            <i class="nav__icon uil uil-message"></i>Contact-me
+                        </a>
+                    </li>
+                </ul>
+                <i class="nav__icon uil uil-times-square nav__close" id="nav-close"></i>
+            </div>
+
+            <audio id="dayAudio">
+                <source src="sound/day.mp3" type="audio/mp3">
+            </audio>
+
+            <div class="specialBox">
+                <i class="uil uil-moon" id="day_night"></i>
+                <div class="Hamburger">
+                    <div class="nav__Open" id="nav-Open" style="font-size: 25px;">
+                        <i class="uil uil-apps"></i>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- End of header Section -->
+
+    <!-- Achievement section -->
+    <section class="container">
+        <div class="timeline" id="Achievements">
+            <div class="timeline_item">
+                <div class="timeline_icon">
+                    <img src="Gallery/gfg-removebg-preview.png" alt="GFG">
+                </div>
+                <div class="timeline_info">
+                    <h1 class="timeline_name">GFG Hackathon : Solving for India</h1>
+                    <p class="timeline_time">March 2023</p>
+                    <p class="timeline_text">Crafted an AgroTech themed project as a solution for the India Hackathon,
+                        organized by GFG. <a href="https://aquaharvest.onrender.com/" target="_blank">View. <i
+                                class="uil uil-eye"></i></a></p>
+                    <span class="timeline_arrow"></span>
+                </div>
+            </div>
+            <div class="timeline_item">
+                <div class="timeline_icon">
+                    <i class="uil uil-java-script" style="font-size: 28px;"></i>
+                </div>
+                <div class="timeline_info">
+                    <h1 class="timeline_name">Mini Js Projects</h1>
+                    <p class="timeline_time">January 2023</p>
+                    <p class="timeline_text">Developed a range of miniature projects utilizing Vanilla JavaScript. Here
+                        are
+                        some listed:-
+                    <ol>
+                        <li><a href="https://upcomingcontests.mudit2904.repl.co/">Upcoming Contests. <i
+                                    class="uil uil-eye"></i></a></li>
+                        <li><a href="https://weather.mudit2904.repl.co/" target="_blank">Weather. <i
+                                    class="uil uil-eye"></i></a></li>
+                    </ol>
+                    </p>
+                    <span class="timeline_arrow"></span>
+                </div>
+            </div>
+            <div class="timeline_item">
+                <div class="timeline_icon">
+                    <img src="Gallery/IEMCC_icon.png" alt="IEM_CC">
+                </div>
+                <div class="timeline_info">
+                    <h1 class="timeline_name">IEM CC Website</h1>
+                    <p class="timeline_time">December 2022</p>
+                    <p class="timeline_text">Made significant contributions to the development and improvement of the
+                        website for my college's coding club. <a href="https://iemcc.in" target="_blank">View. <i
+                                class="uil uil-eye"></i></a></p>
+                    <span class="timeline_arrow"></span>
+                </div>
+            </div>
+            <div class="timeline_item">
+                <div class="timeline_icon">
+                    <img src="Gallery/IEMCC_icon.png" alt="IEM_CC">
+                </div>
+                <div class="timeline_info">
+                    <h1 class="timeline_name">IEM CC : Web-Dev Co-lead</h1>
+                    <p class="timeline_time">October 2022</p>
+                    <p class="timeline_text">Successfully secured the position of co-lead web developer within my
+                        college
+                        coding club.</p>
+                    <span class="timeline_arrow"></span>
+                </div>
+            </div>
+            <div class="timeline_item">
+                <div class="timeline_icon">
+                    <i class="uil uil-browser" style="font-size: 28px;"></i>
+                </div>
+                <div class="timeline_info">
+                    <h1 class="timeline_name">Restaurant : Second Wife</h1>
+                    <p class="timeline_time">September 2022</p>
+                    <p class="timeline_text">Developed a restaurant project and deployed it on Netlify. <a
+                            href="https://secondwifesaharsa.netlify.app/" target="_blank">View. <i
+                                class="uil uil-eye"></i></a></p>
+                    <span class="timeline_arrow"></span>
+                </div>
+            </div>
+            <div class="timeline_item">
+                <div class="timeline_icon">
+                    <img src="Gallery/NPTEL.png" alt="NPTEL">
+                </div>
+                <div class="timeline_info">
+                    <h1 class="timeline_name">NPTEL : An introduction to C++</h1>
+                    <p class="timeline_time">April 2022</p>
+                    <p class="timeline_text">Feeling accomplished after acing the NPTEL C++ exam. <a
+                            href="https://drive.google.com/file/d/1xmgSpO8N5r5dHYGzVM6Dkeh-x0WTCe8H/view?usp=drivesdk"
+                            target="_blank">View. <i class="uil uil-eye"></i></a></p>
+                    <span class="timeline_arrow"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of Achievement section -->
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <p class="footer_title">Mudit Anand.</p>
+        <p class="footer_desc">Inspired by the world, driven by creativity.</p>
+        <p class="footer_info">@copyright 2023. All Rights Reserved.</p>
+    </footer>
+    <!-- End of Footer Section -->
+
+    <script src="Js/hamburger.js"></script>
+    <script src="Js/dayNight.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="Js/Aos_init.js"></script>
+</body>
+
+</html>
