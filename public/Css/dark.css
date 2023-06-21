@@ -42,3 +42,7 @@ body{
         -10px -10px 10px -1px rgba(0, 0, 0, 0.46);
     background-image: linear-gradient(var(--surface_bg), #2f3834);
 }
+
+.nav__link:hover {
+    color: white;
+}
