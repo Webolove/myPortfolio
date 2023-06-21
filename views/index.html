@@ -478,7 +478,7 @@
         </div>
 
         <div class="skills_right" data-aos="fade-left">
-            <img class="skills_img" src="Gallery/1679994335636.png" alt="img" style="transform: scale(1.3);">
+<!--             <img class="skills_img" src="Gallery/1679994335636.png" alt="img" style="transform: scale(1.3);"> -->
 
         </div>
     </section>
@@ -506,6 +506,28 @@
     <!-- <i class="uil uil-moon sideIcon"></i> -->
     <!-- End of Change Theme Section -->
 
+
+    <!-- Skills right script -->
+    <script src="https://cdn.jsdelivr.net/npm/TagCloud@2.2.0/dist/TagCloud.min.js"> </script>
+
+    <script>
+        const myTags = [
+            'HTML', 'CSS', 'JavaScript', 'ReactJs', 'ExpressJs', 'MongoDB', 'NodeJs', 'Bootstrap', 'C/C++', 'VS Code', 'Matlab', 'Kaggle'
+        ];
+
+        var tagCloud = TagCloud('.skills_right', myTags, {
+
+
+            radius: 250,
+            maxSpeed: 'fast',
+            initSpeed: 'fast',
+            direction: 135,
+
+            keep: true,
+
+        });
+    </script>
+	
     <script src="Js/FollowMouse.js"></script>
     <script src="Js/hamburger.js"></script>
     <script src="Js/dayNight.js"></script>
