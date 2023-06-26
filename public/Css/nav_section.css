@@ -76,7 +76,7 @@ ul.nav__list {
         background-color: var(--text_inverse);
         margin: 0;
         max-width: 800px;
-        padding: 0 30px;
+        padding: 28px 28px;
         border-top-right-radius: 1.2rem;
         border-top-left-radius: 1.2rem;
     }
