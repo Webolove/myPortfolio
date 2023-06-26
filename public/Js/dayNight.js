@@ -33,3 +33,14 @@ timeZone.addEventListener("click",()=>{
         }, 300);
     }
 })
+
+
+let getTheme = JSON.parse(localStorage.getItem('PageTheme'));
+console.log(getTheme)
+if (getTheme === "Night") {
+    console.log('hi')
+    timeZone.classList.add("uil-sun");
+    timeZone.classList.remove("uil-moon");
+    nightTheme.removeAttribute("disabled");
+    dayTheme.setAttribute("disabled", "true");
+}
